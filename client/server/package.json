@@ -1,0 +1,25 @@
+{
+"name": "server",
+"version": "1.0.0",
+"description": "Online Exam System Backend using HuggingFace API",
+"type": "module",
+"main": "index.js",
+"scripts": {
+"start": "node index.js"
+},
+"keywords": [
+"exam",
+"backend",
+"huggingface",
+"express",
+"api"
+],
+"author": "Your Name",
+"license": "MIT",
+"dependencies": {
+"cors": "^2.8.5",
+"dotenv": "^17.0.1",
+"express": "^5.1.0",
+"node-fetch": "^3.3.2"
+}
+}

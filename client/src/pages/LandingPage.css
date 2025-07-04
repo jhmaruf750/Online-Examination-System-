@@ -1,0 +1,49 @@
+.ruet-highlight-section {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.highlight-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  border: 1px solid #ddd;
+}
+
+.highlight-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(63, 81, 181, 0.3);
+  border-color: #3f51b5;
+}
+
+.ruet-highlight-section h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 3px rgba(63, 81, 181, 0.3);
+}
+
+.ruet-highlight-section h4 {
+  font-weight: 700;
+}
+
+.ruet-highlight-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-primary {
+  color: #3f51b5 !important;
+}
+
+.text-secondary {
+  color: #455a64 !important;
+}
+
+/* Hero section background example */
+.hero-section {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #3f51b5 0%, #5a55ae 100%);
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+}

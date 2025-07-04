@@ -1,0 +1,30 @@
+.leaderboard-section {
+  background: linear-gradient(to bottom right, #e6ffee, #f9fdf9);
+  border-top: 1px solid #d4f1e0;
+}
+
+.topper-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  border-left: 5px solid #28a745;
+  transition: transform 0.3s ease;
+}
+
+.topper-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.topper-img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 3px solid #28a745;
+}
+
+.score-text {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #28a745;
+}

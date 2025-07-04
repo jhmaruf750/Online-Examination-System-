@@ -1,0 +1,82 @@
+/* Light Mode */
+:root {
+  --background-color: #ffffff;
+  --text-color: #212529;
+  --primary-color: #0d6efd;
+  --secondary-color: #6c757d;
+  --button-color: #0d6efd;
+  --button-hover-color: #0056b3;
+  --border-color: #dee2e6;
+  --link-color: #007bff;
+  --navbar-bg-color: #007bff;  /* For Navbar background */
+  --footer-bg-color: #f8f9fa;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --background-color: #181818;
+  --text-color: #f1f1f1;
+  --primary-color: #bb86fc;
+  --secondary-color: #f1f1f1;
+  --button-color: #3700b3;
+  --button-hover-color: #6200ea;
+  --border-color: #333333;
+  --link-color: #bb86fc;
+  --navbar-bg-color: #121212;  /* Dark mode navbar */
+  --footer-bg-color: #1e1e1e;  /* Dark mode footer */
+}
+
+/* Body - apply background and text colors */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: var(--navbar-bg-color);
+  transition: background-color 0.3s ease;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/* Button styles */
+.btn {
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--button-hover-color);
+  cursor: pointer;
+}
+
+/* Borders and other elements */
+hr {
+  border-color: var(--border-color);
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+  padding: 10px 0;
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* Smooth transitions for links and buttons */
+* {
+  transition: all 0.3s ease;
+}

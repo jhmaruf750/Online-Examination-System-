@@ -1,0 +1,27 @@
+.exam-calendar-section {
+  background: #fdfdfd;
+  border-top: 1px solid #e1e1e1;
+}
+
+.calendar-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-left: 5px solid #0d6efd;
+  transition: transform 0.3s ease;
+}
+
+.calendar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-date {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0d6efd;
+  min-width: 80px;
+}
